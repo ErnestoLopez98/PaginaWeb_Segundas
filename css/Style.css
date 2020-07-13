@@ -1,0 +1,362 @@
+/* Variables
+--------------------------*/
+:root {
+    --titleColor: #3c3c3c;
+    --textColor: #6a6a6a;
+    --fondoColor: #e4d5d5f8;
+}
+
+/* RESET
+--------------------------*/
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Generales
+--------------------------*/
+body{
+    font-family: 'ubuntu',Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--textColor);
+    background: var(--fondoColor);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 48px;
+    line-height: 58px;
+}
+
+h2{
+    font-size: 38px;
+    line-height: 48px;
+}
+
+h3{
+    font-size: 28px;
+    line-height: 38px;
+}
+.img-responsive{
+    width: 340px;
+    height: 470px;
+}
+
+
+
+.btn:link,
+.btn:visited{
+    background-color: var(--titleColor);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    padding: 15px 25px;
+    font-size: 14px;
+    transition: background-color .3s; 
+}
+
+.btn:hover,
+.btn:active{
+    background-color: var(--textColor);
+    }
+
+/* Navegacion
+--------------------------*/
+nav{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+nav img.logo{
+    width: 292px;
+    height: 300px;
+}
+
+nav ul.menu{
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul.menu li:not(:last-child){
+    margin-right: 50px;
+}
+
+nav ul.menu li a:link,
+nav ul.menu li a:visited{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    opacity: 1;
+    transition: opacity .3s;
+}
+
+nav ul.menu li a:hover,
+nav ul.menu li a:active{
+   opacity: .7;
+}
+
+/* Cabecera
+--------------------------*/
+header{
+   width: 100%;
+   height: 90vh;
+   background-image: linear-gradient(to top right, rgba(60, 60, 60, .7), rgba(76, 76, 76, .7)), url(../Parti1.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   margin: 0 auto;
+}
+
+header .text-content{
+    margin-top: -10px;
+    text-align: center;
+}
+
+header .text-content h1{
+    margin-bottom: 20px;
+    color: white;
+}
+
+header .text-content p{
+    font-size: 20px;
+    color: rgba(255,255, 255, .8);
+    margin-bottom: 30px;
+}
+
+/* SECCION #1
+--------------------------*/
+.anime-text {
+    margin-top: 50px;
+
+}
+
+.anime-text h2 {
+    margin-bottom: 30px;
+}
+
+.anime-text p:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.button{
+    margin-top: 50px;
+    
+    
+}
+
+#anime-1 img{
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0, .3);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* SECCION #2
+--------------------------*/
+.no-padding{
+    padding: 0% 15%;
+}
+
+#anime-2 p{
+    padding: 10px 10px;
+}
+
+#anime-2 img {
+    margin: 50px auto;
+
+}
+
+/* SECCION #3
+--------------------------*/
+.anime-text {
+    margin-top: 50px;
+
+}
+
+.anime-text h2 {
+    margin-bottom: 30px;
+}
+
+.anime-text p:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.button{
+    margin-top: 50px;
+    
+    
+}
+
+#anime-3 img{
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0, .3);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* SECCION #4
+--------------------------*/
+.no-padding{
+    padding: 0% 15%;
+}
+
+#anime-4 p{
+    padding: 10px 10px;
+}
+
+#anime-4 img {
+    margin: 50px auto;
+
+}
+
+/* SECCION #5
+--------------------------*/
+.anime-text {
+    margin-top: 50px;
+    
+
+}
+
+.anime-text h2 {
+    margin-bottom: 30px;
+}
+
+.anime-text p:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.button{
+    margin-top: 50px;
+    
+    
+}
+
+#anime-5 img{
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0, .3);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* SECCION #6
+--------------------------*/
+.no-padding{
+    padding: 0% 15%;
+}
+
+#anime-6 p{
+    padding: 10px 10px;
+}
+
+#anime-6 img {
+    margin: 50px auto;
+
+}
+
+/* NEW LETTER
+--------------------------*/
+section#newsletter{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(to top right, rgba(155, 155, 155, 0.7), rgba(76, 76, 76, .7)), url(../Parti1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#newsletter h2{
+    margin-bottom: 20px;
+}
+
+section#newsletter p{
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.newsletter-box{
+    background-color: white;
+    padding: 100px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+
+form{
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+form input[type='email']{
+    flex-basis: 50%;
+    background-color: #e8e8e8;
+    border: none;
+    padding: 15px;
+}
+
+button{
+    background-color: var(--textColor);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    padding: 15px 25px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+button:haver{
+    background-color: var(--textColor);
+}
+
+/* PIE DE PAGINA
+--------------------------*/
+
+footer{
+    padding: 30px 0;
+    background-color: var(--titleColor);
+}
+
+footer .footer-1,
+footer .footer-3,
+footer .footer-2{
+    font-size: 14px;
+    color: #e8e8e8;
+}
+
+footer .footer-1{
+    display: flex;
+    /*justify-content: flex-start;*/
+}
+
+footer .footer-2{
+    display: flex;
+    justify-content: flex-end;
+}
+footer .footer-3{
+    display: flex;
+    justify-content: center;
+}
